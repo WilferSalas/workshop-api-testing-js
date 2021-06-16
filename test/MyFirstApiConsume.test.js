@@ -25,7 +25,7 @@ describe('First Api Tests', () => {
     expect(response.body.args).to.eql(query);
   });
 
-  it.only('Consume HEAD Service', async () => {
+  it('Consume HEAD Service', async () => {
     const response = await agent.get('https://httpbin.org/response-headers?freeform=');
 
     expect(response.status).to.equal(statusCode.OK);
