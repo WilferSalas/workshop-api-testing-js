@@ -2,7 +2,7 @@ const agent = require('superagent');
 const statusCode = require('http-status-codes');
 const chai = require('chai');
 
-const expect = chai.expect;
+const { expect } = chai;
 
 describe('First Api Tests', () => {
   it('Consume GET Service', async () => {
