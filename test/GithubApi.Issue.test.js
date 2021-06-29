@@ -38,7 +38,7 @@ describe('Consuming POST and PATCH Methods', () => {
     expect(response.body.title).to.equals('Test');
   });
 
-  it.only('edit an issue', async () => {
+  it('edit an issue', async () => {
     const response = await agent.patch(`https://api.github.com/repos/${username}/${repositoryName}/issues/${issueNumber}`, {
       title: 'Changing title'
     })
