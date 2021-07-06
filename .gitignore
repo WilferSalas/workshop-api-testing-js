@@ -14,6 +14,7 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+test-report.html
 
 # Runtime data
 pids
