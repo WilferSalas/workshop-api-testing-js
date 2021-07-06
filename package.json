@@ -4,7 +4,8 @@
   "description": "This is a Workshop about Api Testing in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:dev": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -27,11 +28,10 @@
   "dependencies": {
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.14.5",
+    "axios": "^0.21.1",
     "babel-jest": "^27.0.6",
     "jest": "^27.0.6",
     "jest-html-reporter": "^3.4.1",
-    "react-test-renderer": "^17.0.2",
-    "superagent": "^6.1.0",
-    "superagent-promise": "^1.1.0"
+    "react-test-renderer": "^17.0.2"
   }
 }
